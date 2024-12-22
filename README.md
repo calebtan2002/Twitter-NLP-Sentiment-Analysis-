@@ -42,7 +42,7 @@ These labels are remapped to:
 
 - Trained the model using the Hugging Face Trainer API.
 - Saved the best-performing model based on validation metrics.
-### Results
+## Results
 After training for two epochs, the model achieved:
 
 - **Accuracy: ~83.6%**
@@ -62,3 +62,10 @@ After training for two epochs, the model achieved:
 - Scikit-learn for evaluation metrics
 
 - Google Colab for execution
+
+## Future Improvements
+- Utilize the full dataset for training to enhance model generalization.
+  
+- Experiment with other pre-trained models such as BERT or RoBERTa.
+  
+- Implement hyperparameter tuning for optimal performance.
